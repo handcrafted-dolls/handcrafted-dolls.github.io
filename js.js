@@ -83,8 +83,19 @@ Materialize.scrollFire(options);
 
 
 
+  /*
+  $(function(){
 
-
-
-
-  
+$(window).bind("resize",function(){
+    
+    if($(this).width() <600){
+    $('#mobile-image').addClass('waves-effect waves-block waves-light');
+    $('#mobile-image-2').removeClass('responsive-img materialboxed').addClass('activator');
+    }
+    else{
+    $('#mobile-image').removeClass('waves-effect waves-block waves-light');
+    $('#mobile-image-2').addClass('responsive-img materialboxed').removeClass('activator');
+    }
+})
+})
+*/
