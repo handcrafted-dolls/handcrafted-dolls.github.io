@@ -1,0 +1,797 @@
+
+
+.prisecircleart {
+  margin-bottom:-70px;
+}
+
+.rowmy {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.gradientmy {
+
+  background-image: linear-gradient(to right, #00a18c, #4592e2);
+}
+
+.letterspacingmy {
+  letter-spacing: 8px
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #4caf50;
+     box-shadow: 0 1px 0 0 #4caf50;
+   }
+
+.input-field input[type=text]:focus + label {
+     color: #4caf50;
+   }
+
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid #4caf50;
+     box-shadow: 0 1px 0 0 #4caf50;
+   }
+
+.input-field input[type=email]:focus + label {
+     color: #4caf50;
+   }
+
+.input-field input[type=tel]:focus {
+     border-bottom: 1px solid #4caf50;
+     box-shadow: 0 1px 0 0 #4caf50;
+   }
+
+.input-field input[type=tel]:focus + label {
+     color: #4caf50;
+   }
+
+
+
+.mynewblock {
+  margin-top:30px;
+  margin-bottom:30px;  
+}
+
+.mynewpara {
+  margin-top:-100px;
+  margin-bottom:0px;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #4caf50;
+  box-shadow: 0 1px 0 0 #4caf50;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #4caf50;
+}
+
+.mycolor {
+  background-color: #333b50 !important;
+}
+
+.mycolor2 {
+  color: #f7144d;
+}
+
+.mycolor3 {
+  background-color: #f7144d;
+}
+
+.mycolor {
+  background-color: #333b50 !important;
+}
+
+.my-color-grey {
+  color: #bec7d5;
+}
+
+.my-color-pink {
+  color: #f584a2;
+}
+
+
+.myfontsize {
+  font-size: 12px;
+  
+}
+
+.mynavcolor {
+  color:#8a94a3;
+}
+
+@media only screen and (max-width: 1300px) {
+  .hide-on-med-and-downmy {
+    display: none !important;
+  }
+}
+
+@media only screen and ( min-width: 1300px) {
+  .hide-on-med-and-downmy2 {
+    display: none !important;
+  }
+}
+
+
+.parallax-container-my {
+
+  height: 1000px;
+}
+
+.parallax-container-footer {
+
+  height: 400px;
+}
+
+
+
+.rowmymy {
+  margin-bottom: 0px;
+}
+
+.cardmy {
+  height:500px;
+  
+}
+
+.cardmy-contact {
+ 
+}
+
+.collapsemy {
+  padding: 40px;
+}
+
+body {
+  background-color: black;
+}
+
+.h1my {
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 8px;
+}
+
+@media only screen and ( max-width: 450px) {
+  .h1my, {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+}
+
+
+
+.cardcontentmy {
+
+}
+
+p.pmy {
+  line-height: 3;
+  letter-spacing: 1px;
+
+}
+
+@media only screen and ( max-width: 1200px) {
+  p.pmy {
+   line-height: 1.5;
+  }
+}
+
+@media only screen and ( max-width: 1400px) {
+  p.pmy {
+   line-height: 1.8;
+  }
+}
+
+.mybtn:hover {
+  background-color: #333366;
+}
+
+@media only screen and ( max-width: 700px) {
+  .cardcontentmy {
+  padding: 10px 10px;
+
+}
+}
+
+.h2my {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 9px;
+}
+
+@media only screen and ( max-width: 450px) {
+  .h2my {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+}
+
+.h5my {
+  letter-spacing: 4.5px;
+}
+
+.mydivanim {
+
+  width:0px;
+  height:12px;
+  background: #f7144d;
+  
+  -webkit-animation-duration: 3s;
+  -webkit-transition-timing-function:ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  
+  
+  animation-duration: 3s;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.mydivanimphotoshop {
+  -webkit-animation-name: photoshop ;
+  animation-name: photoshop ;
+}
+
+.mydivanimillustrator {
+  -webkit-animation-name: illustrator ;
+  animation-name: illustrator ;
+}
+
+.mydivanimflash {
+  -webkit-animation-name: flash ;
+  animation-name: flash ;
+}
+
+.mydivanimhandDrawing {
+  -webkit-animation-name: handDrawing ;
+  animation-name: handDrawing ;
+}
+
+@keyframes photoshop {
+    0%   {width:0px;}
+    100% {width:95%;}
+}
+
+@-webkit-keyframes photoshop {
+    0%   {width:0px;}
+    100% {width:95%;}
+}
+
+@keyframes illustrator {
+    0%   {width:0px;}
+    100% {width:85%;}
+}
+
+@-webkit-keyframes illustrator {
+    0%   {width:0px;}
+    100% {width:85%;}
+}
+
+@keyframes flash {
+    0%   {width:0px;}
+    100% {width:75%;}
+}
+
+@-webkit-keyframes flash {
+    0%   {width:0px;}
+    100% {width:75%;}
+}
+
+@keyframes handDrawing {
+    0%   {width:0px;}
+    100% {width:80%;}
+}
+
+@-webkit-keyframes handDrawing {
+    0%   {width:0px;}
+    100% {width:80%;}
+}
+
+.mylifade {
+   opacity:0;
+  
+}
+
+.mylimargin {
+   margin:25px 0px 30px 0px;
+}
+
+.mylimargin2 {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+#fade {
+  opacity:;
+}
+
+/*.mydivanim:hover {
+    width: 500px;
+} */
+
+
+.mydivanim3 {
+    width: 0px;
+    height: 0px;
+    background: red;
+    -webkit-transition: width 4s;
+    transition: width 4s;
+}
+
+.mydivheight {
+  height: 400px
+}
+
+.rowmygallery {
+  height: 2500px
+}
+
+@media screen and (max-width: 600px) {
+  .rowmygallery {
+    height:3200px;
+  }
+}
+
+.galleryBgColor {
+  background-color: #4c5366;
+  background-image: url(img/rocks.png);
+  background-repeat:no-repeat;
+  background-position:0% 170%;
+}
+
+
+
+
+
+
+
+
+
+/* Common style */
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+
+figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  background: #f7144d;
+  text-align: center;
+  cursor: pointer;
+}
+
+figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.my-safari {
+  max-height: 335px;
+}
+
+figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+  pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+figure h2 span {
+  font-weight: 800;
+}
+
+figure h2,
+figure p {
+  margin: 0;
+}
+
+figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+.effect-chico:hover img {
+  background-color: #ff80ab;
+
+  opacity:0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.effect-chico figcaption {
+  padding: 3em;
+}
+
+.effect-chico figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.effect-chico figcaption::before,
+.effect-chico p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.effect-chico h2 {
+  padding: 20% 0 20px 0;
+}
+
+.effect-chico p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.effect-chico:hover figcaption::before,
+.effect-chico:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+  figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+
+.figcapmy {
+  font-size: 30px
+}
+
+.figcapmy-gr {
+  font-size: 30px
+}
+
+.figcapmy2 {
+  font-weight: 600
+}
+.figcapmy3 {
+  font-weight: 100
+}
+
+.myvaligndiv {
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  }
+
+@media screen and (max-width: 1360px) {
+  .figcapmy {
+  font-size: 20px
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .figcapmy {
+  font-size: 15px
+}
+}
+
+@media screen and (max-width: 992px) {
+  .figcapmy {
+  font-size: 30px
+}
+}
+
+@media screen and (max-width: 750px) {
+  .figcapmy {
+  font-size: 20px
+}
+}
+
+@media screen and (max-width: 600px) {
+  .figcapmy {
+  font-size: 40px
+}
+}
+
+@media screen and (max-width: 430px) {
+  .figcapmy {
+  font-size: 20px
+}
+}
+
+
+@media screen and (max-width: 350px) {
+  .figcapmy {
+  font-size: 15px
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1360px) {
+  .figcapmy-gr {
+  font-size: 15px
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .figcapmy-gr {
+  font-size: 10px
+}
+}
+
+@media screen and (max-width: 992px) {
+  .figcapmy-gr {
+  font-size: 25px
+}
+}
+
+@media screen and (max-width: 750px) {
+  .figcapmy-gr {
+  font-size: 15px
+}
+}
+
+@media screen and (max-width: 600px) {
+  .figcapmy-gr {
+  font-size: 35px
+}
+}
+
+@media screen and (max-width: 430px) {
+  .figcapmy-gr {
+  font-size: 15px
+}
+}
+
+
+@media screen and (max-width: 350px) {
+  .figcapmy-gr {
+  font-size: 10px
+}
+}
+
+
+
+
+.myemptydiv {
+  height:200px;
+}
+
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background: #f7144d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.circle1 {
+  position: relative;
+  left: 50%;
+  top: 50px
+}
+
+.circle2 {
+  position: relative;
+  left: 50%;
+  top: 250px;
+}
+
+.circle3 {
+  position: relative;
+  left: 50%;
+  top: 450px;
+}
+
+.circle4 {
+  position: relative;
+  left: 50%;
+  top: 650px;
+}
+
+.circle5 {
+  width: 15px;
+  position: relative;
+  left: 50%;
+  top: 0px;
+  align-content: center;
+}
+
+
+.my-circle-anim {
+  position: relative;
+  left: 40%;
+  top: 0px;
+  width: 2px;
+  height: 0px;
+  background: #f7144d;
+
+ 
+
+  -webkit-animation-duration: 3s;
+  -webkit-transition-timing-function:ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  
+  
+  animation-duration: 3s;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.my-circle-anim-name {
+  -webkit-animation-name: mycircle ;
+  animation-name: mycircle ;
+}
+
+@keyframes mycircle {
+    0%   {height:0px;}
+    100% {height:650px;}
+}
+
+.exp-cont-p {
+  font-weight: 600;
+}
+
+.exp-cont-div1 {
+  opacity: 0;
+  position: relative;
+  top: 30px;
+  transition: 1s linear;
+}
+
+.exp-cont-div2 {
+  opacity: 0;
+  position: relative;
+  top: 250px;
+  transition: 1s linear;
+}
+
+.exp-cont-div3 {
+  opacity: 0;
+  position: relative;
+  top: 270px;
+  transition: 1s linear;
+}
+
+.exp-cont-div4 {
+  opacity: 0;
+  position: relative;
+  top: 490px;
+  transition: 1s linear;
+}
+
+.hidd-exp {
+  opacity: 1;
+}
+
+.my-footer {
+  margin-top: 0px !important;
+}
+
+
+textarea.materialize-textarea {
+  max-height: 80px;
+}
+
+form {
+  z-index: 9999; 
+}
+
+
+.my-footer-img {
+
+  overflow: hidden;
+  height: 100% 
+  z-index:-1;
+}
+
+.contact-me {
+  font-size: 120%;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-me {
+  font-size: 90%
+}
+}
+
+.go-up {
+ margin-top: -100px;
+}
+
+a.go-up-link:hover {
+  opacity: 1
+}
+
+a.go-up-link {
+ opacity: 0.7;
+ transition: 1s;
+ -webkit-transition:1s;
+}
+
+.gallery-img-back  {
+  background-color: black;
+}
+
+.my-buffer {
+  height:50px;
+}
+
+
+
+
+
+
