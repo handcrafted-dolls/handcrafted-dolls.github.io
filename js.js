@@ -2,6 +2,7 @@
       $(document).ready(function(){
       $('.parallax').parallax();
       $('.scrollspy').scrollSpy();
+       $('.materialboxed').materialbox();
     });
 
 $(".button-collapse").sideNav();
@@ -79,6 +80,9 @@ Materialize.scrollFire(options);
   Materialize.myHiddExp4 = function(selectorOrEl) {   
     $( "#hidd-exp4" ).addClass( "hidd-exp" );
   };
+
+
+
 
 
 
